@@ -31,7 +31,7 @@ err := goap.Call(
     nil, // soap request headers (optional)
     addRequest{IntA: 10, IntB: 15}, // request
     nil, // soap response headers(optional)
-    &response // soap response pointer)
+    &response) // soap response pointer
 
 if err != nil {
     panic(err)
